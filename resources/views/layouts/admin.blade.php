@@ -54,7 +54,7 @@
                     <!--begin::User Menu Dropdown-->
                     <li class="nav-item dropdown user-menu">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
-                            <img src="../../dist/assets/img/user1-128x128.jpg" class="user-image rounded-circle shadow"
+                            <img src="{{asset('dist/img/user1-128x128.jpg')}}" class="user-image rounded-circle shadow"
                                 alt="User Image" />
                             <span class="d-none d-md-inline">Bienvenido: {{Auth::user()->name}}</span>
                         </a>
@@ -84,7 +84,7 @@
                 <!--begin::Brand Link-->
                 <a href="{{url('/')}}" class="brand-link">
                     <!--begin::Brand Image-->
-                    <img src="../../dist/assets/img/logo-2.png" alt="Comexo Logo"
+                    <img src="{{asset('dist/img/logo-2.png')}}" alt="Comexo Logo"
                         class="brand-image opacity-75 shadow" />
                     <!--end::Brand Image-->
                     <!--begin::Brand Text-->
